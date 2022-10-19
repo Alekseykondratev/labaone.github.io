@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>table and ul</title>
+</head> 
+<style>
+  th{
+    padding: 5px;
+  }
+  td{
+    text-align: center;
+    padding: 5px;
+  }
+  ul{
+    padding-left: 20px;
+  }
+  table{
+    background-image: url(https://klike.net/uploads/posts/2019-11/1572778701_4.jpg);
+  }
+</style>
+<body>
+  <table border="1">
+    <tr>
+      <th style="background-color: black;"></th>
+      <th>Понеділок</th>
+      <th>Вівторок</th>
+      <th>Середа</th>
+      <th>Четвер</th>
+      <th>П'ятниця</th>
+    </tr>
+    <tr>
+      <th>Урок 1</th>
+      <td rowspan="2">Математика</td>
+      <td>Українська мова</td>
+      <td rowspan="2">Математика</td>
+      <td>Англійська мова</td>
+      <td rowspan="2">Українська мова</td>
+    </tr>
+    <tr>
+      <th>Урок 2</th>
+      <td rowspan="2">Математика</td>
+      <td rowspan="2">Українська мова</td>
+    </tr>
+    <tr>
+      <th>Урок 3</th>
+      <td>Українська мова</td>
+      <td rowspan="2" style="text-align: left;">
+        <ul>
+          <li>Футбол</li>
+          <li>Баскетбол</li>
+          <li>Волейбол</li>
+        </ul>
+      </td>
+      <td>Математика</td>
+    </tr>
+    <tr>
+      <th>Урок 4</th>
+      <td><img src="https://klike.net/uploads/posts/2019-05/1556708032_1.jpg" width="100px"></td>
+      <td>Англійська мова</td>
+      <td>Математика</td>
+      <td>Англійська мова</td>
+    </tr>
+    <tr>
+      <th>Урок 5</th>
+      <td colspan="5">
+          <video width="200px"height="400px" controls>
+            <source src="video.mp4" type="">
+          </video>
+      </td>
+    </tr>
+  </table>
+</html>
